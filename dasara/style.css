@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://www.wewishes.com/wp-content/uploads/2020/10/10.jpg);    min-height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    display: flex;
+    font-weight: bolder;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    align-items: center;
+    color: white;
+}
+h1{
+    margin-top: 5rem;
+    font-size: 4rem;
+}
+.big-text
+{
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+.countdown-container ,.countdown-container1
+{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.big-text1
+{
+    font-size: 2rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-in{
+    text-align: center;
+}
+.countdown-in span {
+    font-size: 1.5rem;
+}
